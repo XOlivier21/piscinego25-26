@@ -1,12 +1,10 @@
 package main
 
 import (
-	"fmt"
-	"strings"
+    "fmt"
+    "piscine"
 )
 
 func main() {
-	fmt.Println(strings.Compare("a", "b"))
-	fmt.Println(strings.Compare("a", "a"))
-	fmt.Println(strings.Compare("b", "a"))
+    fmt.Println(piscine.ToLower("Hello! How are you?"))
 }
